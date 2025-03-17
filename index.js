@@ -17,7 +17,7 @@ checkPalindrome = str => {
   }
 
   if (strNormalized === strNormalized.split('').reverse().join('')) {
-    result.innerHTML = `${str} is a palindrome!`;
+    result.innerHTML = `${str} is a palindrome.`;
   }
   else {
     result.innerHTML = `${str} is not a palindrome.`;
