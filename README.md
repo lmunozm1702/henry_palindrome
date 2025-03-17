@@ -4,13 +4,13 @@ Build an app that is functionally similar to https://palindrome-checker.freecode
 
 ## User Stories:
 
-[]You should have a title element with text content of Palindrome Checker for Henry.
+[x]You should have a title element with text content of Palindrome Checker for Henry.
 
-[] You should have an input element with an id of "text-input".
+[x] You should have an input element with an id of "text-input".
 
-[] You should have a button element with an id of "check-btn".
+[x] You should have a button element with an id of "check-btn".
 
-[] You should have a div, span or p element with an id of "result".
+[x] You should have a div, span or p element with an id of "result".
 
 [] When you click on the #check-btn element without entering a value into the #text-input element, an alert should appear with the text Please input a value.
 
