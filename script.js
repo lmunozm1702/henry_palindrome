@@ -2,17 +2,12 @@ const checkBtn = document.getElementById('check-btn');
 const textInput = document.getElementById('text-input');
 const result = document.getElementById('result');
 
-checkBtn.addEventListener('click', () => {
-  checkPalindrome(textInput.value);
-  textInput.value = '';
-});
-
-checkPalindrome = str => {
+const checkPalindrome = str => {
   //Remove all non alphanumeric characters and set to lowercase
-  strNormalized = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+  let strNormalized = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
 
   if (strNormalized === '') {
-    result.innerHTML = 'Please input a value.';
+    alert('Please input a value.');
     return;
   }
 
@@ -25,4 +20,10 @@ checkPalindrome = str => {
 
   result.classList.remove('hidden');
 };
+
+checkBtn.addEventListener('click', () => {
+  checkPalindrome(textInput.value);
+  textInput.value = '';
+});
+
 
