@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #0a0a23;
+}
+
+.freecodecamp-logo {
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 6px 6px #002ead;
+  width: min(100vw, 450px);
+  padding: 20px;
+  gap: 20px;
+}
+
+.input-label {
+  color: #0a0a23;
+}
+
+.input-form {
+  display: flex;
+  gap: 5px;
+}
+
+.text-input {
+  height: 30px;
+  width: 250px;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 10px;
+  border: none;
+  border-bottom: 2px solid #5a01a7;
+}
+
+.check-btn {
+  width: 90px;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #5a01a7;
+  color: #fff;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.palindrome-meaning {
+  background-color: #00471b;
+  border-radius: 20px;
+  width: min(100vw, 450px);
+  padding: 20px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
+.hidden {
+  display: none;
+}
