@@ -22,5 +22,7 @@ checkPalindrome = str => {
   else {
     result.innerHTML = `${str} is not a palindrome.`;
   }
+
+  result.classList.remove('hidden');
 };
 

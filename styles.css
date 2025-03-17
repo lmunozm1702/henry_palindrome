@@ -75,7 +75,6 @@ body {
 
 .result {
   font-size: 1.4rem;
-  margin-top: 10px;
   text-align: center;
 }
 
@@ -88,4 +87,8 @@ body {
   text-align: center;
   font-size: 1.3rem;
   color: #ffffff;
+}
+
+.hidden {
+  display: none;
 }
