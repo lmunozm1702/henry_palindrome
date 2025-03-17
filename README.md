@@ -12,7 +12,7 @@ Build an app that is functionally similar to https://palindrome-checker.freecode
 
 [x] You should have a div, span or p element with an id of "result".
 
-[] When you click on the #check-btn element without entering a value into the #text-input element, an alert should appear with the text Please input a value.
+[x] When you click on the #check-btn element without entering a value into the #text-input element, an alert should appear with the text Please input a value.
 
 [] When the #text-input element only contains the letter A and the #check-btn element is clicked, the #result element should contain the text A is a palindrome.
 
